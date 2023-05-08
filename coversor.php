@@ -10,7 +10,7 @@
     
     <?php 
 
-       $v = $_REQUEST["valor"] ?? 0;
+       $v = $_REQUEST['valor'] ?? 0;
        
        $coversor = $v/$cotacao;
        $cotacao = 58;
@@ -38,8 +38,8 @@
 
        echo "Seus".numfmt_format_currency($padrao, $coversor, "MZN"); */
 
-        echo "<p> seus $v meticais, correspodem a $coversor dolares</p>";
-        echo "sedo que  dolar custa a $dolar"
+        echo "<p> seus ".$v. "meticais, correspodem a ".$coversor." dolares</p>";
+        echo "sedo que  dolar custa a" .$cotaca;
 
        
     ?>
